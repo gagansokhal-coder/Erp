@@ -27,21 +27,21 @@ const demoAcademicData = {
 };
 
 const demoProfiles = {
-    // *53 Family
-    '22103053': { name: 'Rahul Kumar', rollNo: '22103053', branch: 'Computer Science', batch: '2026', cgpa: 8.5, photoUrl: '/api/student/photo/22103053', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi' },
-    '23103053': { name: 'Simran Kaur', rollNo: '23103053', branch: 'Mechanical', batch: '2027', cgpa: 7.8, photoUrl: '/api/student/photo/23103053', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi' },
-    '24103053': { name: 'Amit Singh', rollNo: '24103053', branch: 'Electrical', batch: '2028', cgpa: 9.1, photoUrl: '/api/student/photo/24103053', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi' },
-    '25103053': { name: 'Gagandeep', rollNo: '25103053', branch: 'Computer Science', batch: '2029', cgpa: 8.0, photoUrl: '/api/student/photo/25103053', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi' },
+    // *53 Family - Gagandeep
+    '22103053': { name: 'Gagandeep', rollNo: '22103053', branch: 'Computer Science', batch: '2026', cgpa: 8.5, photoUrl: '/53.png', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi', mobile: '9465774926', officialEmail: 'gagandeep.cs.22@nitj.ac.in', personalEmail: 'gagansokhal077@gmail.com' },
+    '23103053': { name: 'Gagandeep', rollNo: '23103053', branch: 'Computer Science', batch: '2027', cgpa: 7.8, photoUrl: '/53.png', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi', mobile: '9465774926', officialEmail: 'gagandeep.cs.23@nitj.ac.in', personalEmail: 'gagansokhal077@gmail.com' },
+    '24103053': { name: 'Gagandeep', rollNo: '24103053', branch: 'Computer Science', batch: '2028', cgpa: 9.1, photoUrl: '/53.png', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi', mobile: '9465774926', officialEmail: 'gagandeep.cs.24@nitj.ac.in', personalEmail: 'gagansokhal077@gmail.com' },
+    '25103053': { name: 'Gagandeep', rollNo: '25103053', branch: 'Computer Science', batch: '2029', cgpa: 8.0, photoUrl: '/53.png', fatherName: 'Manoj Kumar', motherName: 'Sushila Devi', mobile: '9465774926', officialEmail: 'gagandeep.cs.25@nitj.ac.in', personalEmail: 'gagansokhal077@gmail.com' },
     
-    // *63 Family
-    '22103063': { name: 'Student 22103063', rollNo: '22103063', branch: 'Computer Science', batch: '2026', cgpa: 8.2, photoUrl: '/api/student/photo/22103063', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani' },
-    '23103063': { name: 'Student 23103063', rollNo: '23103063', branch: 'Computer Science', batch: '2027', cgpa: 8.4, photoUrl: '/api/student/photo/23103063', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani' },
-    '24103063': { name: 'Student 24103063', rollNo: '24103063', branch: 'Computer Science', batch: '2028', cgpa: 8.7, photoUrl: '/api/student/photo/24103063', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani' },
+    // *63 Family - Harsh
+    '22103063': { name: 'Harsh', rollNo: '22103063', branch: 'Computer Science', batch: '2026', cgpa: 8.2, photoUrl: '/63.png', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani', mobile: '9592690166', officialEmail: 'harsh.cs.22@nitj.ac.in' },
+    '23103063': { name: 'Harsh', rollNo: '23103063', branch: 'Computer Science', batch: '2027', cgpa: 8.4, photoUrl: '/63.png', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani', mobile: '9592690166', officialEmail: 'harsh.cs.23@nitj.ac.in' },
+    '24103063': { name: 'Harsh', rollNo: '24103063', branch: 'Computer Science', batch: '2028', cgpa: 8.7, photoUrl: '/63.png', fatherName: 'Bhagat Ram', motherName: 'Kanta Rani', mobile: '9592690166', officialEmail: 'harsh.cs.24@nitj.ac.in' },
 
-    // *54 Family
-    '22103054': { name: 'Student 22103054', rollNo: '22103054', branch: 'Computer Science', batch: '2026', cgpa: 8.1, photoUrl: '/api/student/photo/22103054', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi' },
-    '23103054': { name: 'Student 23103054', rollNo: '23103054', branch: 'Computer Science', batch: '2027', cgpa: 8.3, photoUrl: '/api/student/photo/23103054', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi' },
-    '24103054': { name: 'Student 24103054', rollNo: '24103054', branch: 'Computer Science', batch: '2028', cgpa: 8.6, photoUrl: '/api/student/photo/24103054', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi' }
+    // *54 Family - Gopichand
+    '22103054': { name: 'Gopichand', rollNo: '22103054', branch: 'Computer Science', batch: '2026', cgpa: 8.1, photoUrl: '/54.png', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi', mobile: '9056264546', officialEmail: 'gopic.cs.22@nitj.ac.in' },
+    '23103054': { name: 'Gopichand', rollNo: '23103054', branch: 'Computer Science', batch: '2027', cgpa: 8.3, photoUrl: '/54.png', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi', mobile: '9056264546', officialEmail: 'gopic.cs.23@nitj.ac.in' },
+    '24103054': { name: 'Gopichand', rollNo: '24103054', branch: 'Computer Science', batch: '2028', cgpa: 8.6, photoUrl: '/54.png', fatherName: 'Kalu Ram', motherName: 'Nirmala Devi', mobile: '9056264546', officialEmail: 'gopic.cs.24@nitj.ac.in' }
 };
 
 router.get('/academic/:rollNo', async (req, res) => {
