@@ -23,6 +23,18 @@ export default defineConfig({
             fs.createReadStream(file).pipe(res);
             return;
           }
+          if (req.url === '/54.png') {
+            const file = path.resolve(__dirname, '../54.png');
+            res.setHeader('Content-Type', 'image/png');
+            fs.createReadStream(file).pipe(res);
+            return;
+          }
+          if (req.url === '/63.png') {
+            const file = path.resolve(__dirname, '../63.png');
+            res.setHeader('Content-Type', 'image/png');
+            fs.createReadStream(file).pipe(res);
+            return;
+          }
           next();
         });
       }
