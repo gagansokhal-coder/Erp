@@ -28,7 +28,7 @@ const Navbar = ({ user }) => {
             <User size={20} />
           </div>
           <div className="text-left hidden sm:block">
-            <p className="text-sm font-semibold text-slate-800 leading-tight">{user?.name || 'Demo Student'}</p>
+            <p className="text-sm font-semibold text-slate-800 leading-tight">{user?.name || 'Student'}</p>
             <p className="text-xs text-slate-500 font-medium">Roll No: {user?.rollNo}</p>
           </div>
           <ChevronDown size={16} className="text-slate-400 group-hover:text-slate-600 transition-colors ml-1 hidden sm:block" />

@@ -90,15 +90,15 @@ const Academic = ({ user, onLogout }) => {
                     </tr>
                     <tr className="border-b border-gray-200 hover:bg-gray-50">
                       <td className="font-bold text-[#063970] p-3 align-top">Mobile:</td>
-                      <td className="p-3 align-top" colSpan="2">9465774926</td>
+                      <td className="p-3 align-top" colSpan="2">{user?.mobile || '9465774926'}</td>
                     </tr>
                     <tr className="border-b border-gray-200 hover:bg-gray-50">
                       <td className="font-bold text-[#063970] p-3 align-top">Official Email ID:</td>
-                      <td className="p-3 align-top" colSpan="2">gagandeep.cs.25@nitj.ac.in</td>
+                      <td className="p-3 align-top" colSpan="2">{user?.officialEmail || 'gagandeep.cs.25@nitj.ac.in'}</td>
                     </tr>
                     <tr className="border-b border-gray-200 hover:bg-gray-50">
                       <td className="font-bold text-[#063970] p-3 align-top">Personal Email ID:</td>
-                      <td className="p-3 align-top" colSpan="2">gagansokhal077@gmail.com</td>
+                      <td className="p-3 align-top" colSpan="2">{user?.personalEmail || 'gagansokhal077@gmail.com'}</td>
                     </tr>
                     <tr className="border-b border-gray-200 hover:bg-gray-50">
                       <td className="font-bold text-[#063970] p-3 align-top">Correspondence Address:</td>
